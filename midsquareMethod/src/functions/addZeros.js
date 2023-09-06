@@ -10,6 +10,5 @@ const addZeros  = (sqrNumber, currentNumber) => {
     return Number(sqrDigits.join(''))
 }
 
-console.log(addZeros(1234, 123))
 
 module.exports = addZeros;
